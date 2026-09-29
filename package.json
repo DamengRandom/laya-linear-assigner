@@ -1,0 +1,21 @@
+{
+  "name": "my-laya-app",
+  "version": "1.0.1",
+  "description": "Laya linear task assign app - demo",
+  "main": "index.js",
+  "scripts": {
+    "batch": "npx tsx src/sync.ts --batch 10"
+  },
+  "keywords": [],
+  "type": "commonjs",
+  "dependencies": {
+    "@receptron/laya": "^0.1.2",
+    "dotenv": "^18.0.4"
+  },
+  "devDependencies": {
+    "@types/node": "^26.6.3",
+    "ts-node": "^10.9.2",
+    "tsx": "^4.23.15",
+    "typescript": "^7.0.2"
+  }
+}
