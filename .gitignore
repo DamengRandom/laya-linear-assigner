@@ -1,2 +1,4 @@
 .env
 play/
+node_modules/
+.DS_Store
